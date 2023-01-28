@@ -1,0 +1,155 @@
+@page { margin: 60px 50px; }
+.document {
+  /* padding: 30px; */
+  font-size: 14px;
+}
+
+header { position: fixed; top: -60px; left: 0px; right: 0px; background-color: lightblue; height: 30px; }
+footer { width: 100%; position: fixed; bottom: 0px; left: 0px; right: 0px; padding: 0; height: 20px; }
+footer .logo { position: fixed; width: 100%; text-align: center; left: 0px; right: 0; bottom: 0; height: 30px; }
+
+.document .doc-title {
+  font-size: 17px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.document .doc-title.primary {
+  color: #4c00be;
+}
+
+.document .doc-template p {
+  margin: 15px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+p.ident {
+  text-indent: 50px;
+}
+
+.signature-section {
+  width: 100%;
+}
+.signature-section .left {
+  width: 40%;
+  float: left
+}
+.signature-section .right {
+  width: 40%;
+  float: right
+}
+.signature-section .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.form-table .heading {
+  background-color: #000;
+  color: #fff;
+  text-align: center;;
+}
+.form-table.gray .heading {
+  background-color: #a6a6a6;
+  color: #000;
+}
+.form-table tr td {
+  padding: 5px;
+  border: 1px solid #000;
+}
+.form-table tr td .inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+.form-table tr td.p-0 {
+  padding: 0;
+}
+.form-table tr td textarea {
+  width: 100%;
+  padding: 5px;
+  resize: vertical;
+}
+
+.row {
+  display: block;
+}
+
+.row .col {
+  display: inline-block;
+  vertical-align: top;
+}
+.row .col.col-1 {
+  width: 8.333%;
+}
+.row .col.col-2 {
+  width: 16.666%;
+}
+.row .col.col-3 {
+  width: 25%;
+}
+.row .col.col-4 {
+  width: 33%;
+}
+.row .col.col-5 {
+  width: 41.666%;
+}
+.row .col.col-6 {
+  width: 50%;
+}
+.inline-signature {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  width: 200px;
+  border-bottom: 1px solid #000;
+  margin-left: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.tag {
+  padding: 3px 5px;
+  background-color: #4c00be;
+  color: #fff;
+  border-radius: 3px;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 11px;
+}

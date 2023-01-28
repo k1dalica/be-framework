@@ -1,0 +1,9 @@
+assets/node_modules
+assets/mix-manifest.json
+assets/dist
+src/vendor/dompdf
+files
+.env
+config.php
+index.php
+.idea
